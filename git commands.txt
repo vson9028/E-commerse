@@ -1,0 +1,34 @@
+1] TO CREATE A NEW REPOSETORY WE HAVE TO EXECUTE ONE COMMAND CALLED 
+=> git init
+this command will initialised a new git reposetory in same folder 
+
+
+2] to show the status of our file which are available in our workspace
+=> git status
+
+
+3] to add file from workpace to staging area       3.1] to add all files from workpace to staging area   3.2] to add a specific file from workpace to staging area
+=> git add                                         => git add -a                                             => git add a.txt b.txt
+
+
+
+4] as soon as the file is available in staging area then we have to move them to local reposetory by using following command
+=> git commit -m "this is my first commit"
+but before commiting we have to execute some configuration commands so we have to tell git which user commiting these changes like user email , name 
+we have to specify. this has to be done only one time before commiting.
+the configuration command is
+=> git config --global user.email "mayursawant9028@gmail.com"
+once above command is executed we have to execute one more command
+=> git config --global user.name "mayursawant"
+
+5] to check how many commit you do earlier
+=> git log
+
+6] to add modified files from workspace to local reposetory
+==> git commit -a -m "both files are modified..."
+
+7] to copy project from github
+==> git clone
+
+8] to create file through command
+==> git 
