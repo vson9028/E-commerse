@@ -1,0 +1,12 @@
+$ git init
+
+$ git add .
+
+$ git commit -m "this is my second commit"
+
+$ git branch -M main
+
+$ git remote add origin https://github.com/vson9028/E-commerse.git
+
+$ git push -u origin main
+
